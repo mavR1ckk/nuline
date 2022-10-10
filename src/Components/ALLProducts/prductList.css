@@ -1,0 +1,25 @@
+.fcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fitem1 {
+    width: 30%;
+    height: 20px;
+    border: 2px;
+    border-color: tomato;
+    background-color: yellow;
+    border-style: dashed;
+    border-width: 2px;
+}
+
+.fitem2 {
+    width: 50%;
+    height: 20px;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: tomato;
+    background-color: yellow;
+    margin: 1px;
+}
