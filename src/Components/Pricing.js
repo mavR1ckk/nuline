@@ -5,7 +5,7 @@ import AllProducts from "./ALLProducts/AllProducts";
 function Pricing() {
     const img = 'poster.jpg'
     return (
-        <div>
+        <div >
             <AllProducts />
         </div>
     )

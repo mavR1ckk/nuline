@@ -27,15 +27,7 @@ function App() {
     <Fragment>
       <BrowserRouter>
         <Navbar1 />
-        <body>
-        <div >
-            <h1 className='align-center'>All Products</h1>
-            <div className='fcontainer'>
-                <div className='fitem1'></div>
-                <div className='fitem2'></div>         
-            </div>
-        </div>
-
+        <body>        
           <Routes>
             {/* <Route path='/' element={<Public/>}></Route>
             <Route path='/admin' element={<DashBoard/>}></Route> */}            

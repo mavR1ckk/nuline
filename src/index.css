@@ -16,12 +16,6 @@ html {
   font-size: 75%;
 }
 
-
-
-.main-container {
-  display: flex;
-}
-
 .p1-text {
   font-size: 1.2rem;
 }
@@ -122,14 +116,17 @@ body {
 
 @media (min-width: 576px) {
   html {
-    font-size: 100%;
+    font-size: 35%;
   }
 }
 
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   html {
-    font-size: 65%;
+    font-size: 45%;
+  }
+  body {
+    padding-top: 3.15rem;
   }
 }
 
@@ -143,7 +140,7 @@ body {
 
 @media (min-width: 1200px) {
   html {
-    font-size: 100%;
+    font-size: 75%;
   }
 }
 
