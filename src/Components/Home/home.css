@@ -43,9 +43,10 @@
 .home_content{
     display: flex;
     align-items: center;
+
 }
 
-.home_conatiner{
+.home_conatiner{    
     padding: auto 2rem;
     margin:auto 4rem;
 }

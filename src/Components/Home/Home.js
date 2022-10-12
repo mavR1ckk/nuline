@@ -25,10 +25,10 @@ function Home() {
                 <h2 className="title"> Who we are?</h2>
                 <p className="align-center p1">Nuline® was founded in 2012 with the idea of providing India with sports nutrition supplements that are specifically focused on
                     <br />   Indian customer needs and listens to their sentiments day in day out..</p>
+                    <h2 className="title"> What we deliver?</h2>
             </div>
 
-            <div className="home_conatiner">
-                <h2 className="title"> What we deliver?</h2>                
+            <div className="home_conatiner">                                
                     <div className="home_content" style={{ backgroundColor: "#DCDCDC" }}>
                         <div className="img_part">
                             <img className="home_img"
