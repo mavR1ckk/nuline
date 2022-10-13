@@ -32,12 +32,12 @@ function Home() {
                     <div className="home_content" style={{ backgroundColor: "#DCDCDC" }}>
                         <div className="img_part">
                             <img className="home_img"
-                                src={require('../../IMG/research.PNG')}
+                               src={require('../../IMG/research.PNG')}
                                 alt="img"
                             />
                         </div>
                         <div className="text_partRight ">
-                            <p className="tile">High-Quality Ingredients & Processes</p>
+                            <p className="title">High-Quality Ingredients & Processes</p>
                             <p>Driven by the desire to exceed your expectations, we have brought togetherpharmaceutical expertise and the best experts of the chocolate flavor to create a path-breaking formulation with unmatched taste.
                                 This gave birth to the "Best Tasting Chocolate Whey Protein Shake",which was confirmed by the consumers themselves in a blind taste study done by Nielsen in 2015.
                                 The same research orientation was also the bedrock for the formulation of Biozyme Whey, which was craft
@@ -47,7 +47,7 @@ function Home() {
                     </div>                
                 <div className="home_content" >
                     <div className="text_partLeft">
-                        <p className="tile">Research Oriented</p>
+                        <p className="title">Research Oriented</p>
                         <p>Our passion for bringing international-grade fitness supplements has made us look around the world to source the very best whey and flavors.
                             At Nuline® quality doesn’t just end at procuring the finest raw materials.
                             The manufacturing of the final products takes place at FSSAI, HACCP certified state of the art plant,
@@ -63,6 +63,22 @@ function Home() {
                         />
                     </div>
                 </div>
+                <div className="home_content" style={{ backgroundColor: "#DCDCDC" }}>
+                        <div className="img_part">
+                            <img className="home_img"
+                               src={require('../../IMG/customer.PNG')}
+                                alt="img"
+                            />
+                        </div>
+                        <div className="text_partRight ">
+                            <p className="title">Customer satisfaction</p>
+                            <p>Driven by the desire to exceed your expectations, we have brought togetherpharmaceutical expertise and the best experts of the chocolate flavor to create a path-breaking formulation with unmatched taste.
+                                This gave birth to the "Best Tasting Chocolate Whey Protein Shake",which was confirmed by the consumers themselves in a blind taste study done by Nielsen in 2015.
+                                The same research orientation was also the bedrock for the formulation of Biozyme Whey, which was craft
+                                The same research orientation was also the bedrock for the formulation of Biozyme Whey,which was crafted over a 2-year period and clinically tested to provide 50% higher protein absorption.
+                            </p>
+                        </div>
+                    </div>      
             </div>
         </div>
     )
