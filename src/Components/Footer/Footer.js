@@ -34,9 +34,9 @@ function Footer() {
 
                     <div className="rightFooter">
                         <h4>Follow Us</h4>
-                        <a href="http://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                        <a href="https://www.instagram.com/nulinenutrition_/" target="_blank" rel="noopener noreferrer">Instagram</a>
                         <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">Youtube</a>
-                        <a href="http://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+                        <a href="https://www.facebook.com/profile.php?id=100063743393338" target="_blank" rel="noopener noreferrer">Facebook</a>
                     </div>
         </footer>
     )
