@@ -5,10 +5,8 @@ import {
   Route,
 } from "react-router-dom";
 import WebFont from "webfontloader";
-import Public from './Components/Public';
-import DashBoard from './Components/Admin/DashBoard';
 import Home from './Components/Home/Home';
-import Pricing from './Components/Pricing';
+import Pricing from './Components/ALLProducts/Pricing';
 import About from './Components/AboutComp/About';
 import ProductsList from './Components/ALLProducts/ProductsList';
 import Navbar1 from './Components/Navbar/Navbar1';
@@ -24,22 +22,25 @@ function App() {
 
   }, []);
   return (
-    <Fragment>
+    <>
       <BrowserRouter>
         <Navbar1 />
-        <body>        
+        <div className='body'>
           <Routes>
             {/* <Route path='/' element={<Public/>}></Route>
             <Route path='/admin' element={<DashBoard/>}></Route> */}            
+            
+
             <Route path='/' element={<Home />} />
             <Route path='/pricing' element={<Pricing />} />
             <Route path='/about' element={<About />} />
             <Route path='/products' element={<ProductsList />} />
+            
           </Routes>
-        </body>
+          </div>
         <Footer />
       </BrowserRouter>
-    </Fragment>
+    </>
 
   );
 }

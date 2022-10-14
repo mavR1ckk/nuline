@@ -3,15 +3,13 @@ import "../Home/home.css"
 
 const About = () => {
 
-    const img = 'P1.PNG';
-
     return (
         <div style={{ background: "#F5F5F5" }}>
             <div className='poster'>
                 <div className='poster'>
                     <img
                         style={{ width: '100%' }}
-                        src={require('../../IMG/NAV1.PNG')}
+                        src='./images//NAV1.PNG'
                         alt="img"
                     />
                 </div>
@@ -27,13 +25,13 @@ const About = () => {
                 <div className="home_content" style={{ backgroundColor: "#DCDCDC" }}>
                     <div className="img_part">
                         <img className="home_img"
-                            src={require('../../IMG/research.PNG')}
+                            src='./images/research.PNG'
                             alt="img"
                         />
                     </div>
                     <div className="text_partRight ">
                         <p className="title">High-Quality Ingredients & Processes</p>
-                        <p>Driven by the desire to exceed your expectations, we have brought togetherpharmaceutical expertise and the best experts of the chocolate flavor to create a path-breaking formulation with unmatched taste.
+                        <p>Driven by the desire to exceed your expectations, we have brought together pharmaceutical expertise and the best experts of the chocolate flavor to create a path-breaking formulation with unmatched taste.
                             This gave birth to the "Best Tasting Chocolate Whey Protein Shake",which was confirmed by the consumers themselves in a blind taste study done by Nielsen in 2015.
                             The same research orientation was also the bedrock for the formulation of Biozyme Whey, which was craft
                             The same research orientation was also the bedrock for the formulation of Biozyme Whey,which was crafted over a 2-year period and clinically tested to provide 50% higher protein absorption.
@@ -53,7 +51,7 @@ const About = () => {
                     </div>
                     <div className="img_part">
                         <img
-                            src={require('../../IMG/process.PNG')}
+                            src='./images/process.PNG'
                             alt="img"
                         />
                     </div>
@@ -61,7 +59,7 @@ const About = () => {
                 <div className="home_content" style={{ backgroundColor: "#DCDCDC" }}>
                     <div className="img_part">
                         <img className="home_img"
-                            src={require('../../IMG/customer.PNG')}
+                            src='./images/customer.PNG'
                             alt="img"
                         />
                     </div>

@@ -1,10 +1,11 @@
 import React from "react";
 import "./home.css";
+import Slider from "./Slider/Slider";
 
 function Home() {
     return (
         <div style={{ background: "#F5F5F5" }}>
-            <div className='poster'>
+            {/* <div className='poster'>
                 <div className='poster'>
                     <img
                         style={{ width: '100%' }}
@@ -12,39 +13,40 @@ function Home() {
                         alt="img"
                     />
                 </div>
-            </div>
+            </div> */}
             <div >
-                <img
+                <Slider />
+                {/* <img
                     style={{ width: '100vw' }}
                     src={require('../../IMG/home.PNG')}
                     alt="img"
-                />
+                /> */}
             </div>
 
             <div>
                 <h2 className="title"> Who we are?</h2>
                 <p className="align-center p1">Nuline® was founded in 2012 with the idea of providing India with sports nutrition supplements that are specifically focused on
                     <br />   Indian customer needs and listens to their sentiments day in day out..</p>
-                    <h2 className="title"> What we deliver?</h2>
+                <h2 className="title"> What we deliver?</h2>
             </div>
 
-            <div className="home_conatiner">                                
-                    <div className="home_content" style={{ backgroundColor: "#DCDCDC" }}>
-                        <div className="img_part">
-                            <img className="home_img"
-                               src={require('../../IMG/research.PNG')}
-                                alt="img"
-                            />
-                        </div>
-                        <div className="text_partRight ">
-                            <p className="title">High-Quality Ingredients & Processes</p>
-                            <p>Driven by the desire to exceed your expectations, we have brought togetherpharmaceutical expertise and the best experts of the chocolate flavor to create a path-breaking formulation with unmatched taste.
-                                This gave birth to the "Best Tasting Chocolate Whey Protein Shake",which was confirmed by the consumers themselves in a blind taste study done by Nielsen in 2015.
-                                The same research orientation was also the bedrock for the formulation of Biozyme Whey, which was craft
-                                The same research orientation was also the bedrock for the formulation of Biozyme Whey,which was crafted over a 2-year period and clinically tested to provide 50% higher protein absorption.
-                            </p>
-                        </div>
-                    </div>                
+            <div className="home_conatiner">
+                <div className="home_content" style={{ backgroundColor: "#DCDCDC" }}>
+                    <div className="img_part">
+                        <img className="home_img"
+                            src='./images/research.PNG'
+                            alt="img"
+                        />
+                    </div>
+                    <div className="text_partRight ">
+                        <p className="title">High-Quality Ingredients & Processes</p>
+                        <p>Driven by the desire to exceed your expectations, we have brought togetherpharmaceutical expertise and the best experts of the chocolate flavor to create a path-breaking formulation with unmatched taste.
+                            This gave birth to the "Best Tasting Chocolate Whey Protein Shake",which was confirmed by the consumers themselves in a blind taste study done by Nielsen in 2015.
+                            The same research orientation was also the bedrock for the formulation of Biozyme Whey, which was craft
+                            The same research orientation was also the bedrock for the formulation of Biozyme Whey,which was crafted over a 2-year period and clinically tested to provide 50% higher protein absorption.
+                        </p>
+                    </div>
+                </div>
                 <div className="home_content" >
                     <div className="text_partLeft">
                         <p className="title">Research Oriented</p>
@@ -58,27 +60,27 @@ function Home() {
                     </div>
                     <div className="img_part">
                         <img className="home_img"
-                            src={require('../../IMG/process.PNG')}
+                            src='./images/process.PNG'
                             alt="img"
                         />
                     </div>
                 </div>
                 <div className="home_content" style={{ backgroundColor: "#DCDCDC" }}>
-                        <div className="img_part">
-                            <img className="home_img"
-                               src={require('../../IMG/customer.PNG')}
-                                alt="img"
-                            />
-                        </div>
-                        <div className="text_partRight ">
-                            <p className="title">Customer satisfaction</p>
-                            <p>Driven by the desire to exceed your expectations, we have brought togetherpharmaceutical expertise and the best experts of the chocolate flavor to create a path-breaking formulation with unmatched taste.
-                                This gave birth to the "Best Tasting Chocolate Whey Protein Shake",which was confirmed by the consumers themselves in a blind taste study done by Nielsen in 2015.
-                                The same research orientation was also the bedrock for the formulation of Biozyme Whey, which was craft
-                                The same research orientation was also the bedrock for the formulation of Biozyme Whey,which was crafted over a 2-year period and clinically tested to provide 50% higher protein absorption.
-                            </p>
-                        </div>
-                    </div>      
+                    <div className="img_part">
+                        <img className="home_img"
+                            src='./images/customer.PNG'
+                            alt="img"
+                        />
+                    </div>
+                    <div className="text_partRight ">
+                        <p className="title">Customer satisfaction</p>
+                        <p>Driven by the desire to exceed your expectations, we have brought together pharmaceutical expertise and the best experts of the chocolate flavor to create a path-breaking formulation with unmatched taste.
+                            This gave birth to the "Best Tasting Chocolate Whey Protein Shake",which was confirmed by the consumers themselves in a blind taste study done by Nielsen in 2015.
+                            The same research orientation was also the bedrock for the formulation of Biozyme Whey, which was craft
+                            The same research orientation was also the bedrock for the formulation of Biozyme Whey,which was crafted over a 2-year period and clinically tested to provide 50% higher protein absorption.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     )

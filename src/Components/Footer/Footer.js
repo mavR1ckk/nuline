@@ -22,7 +22,7 @@ function Footer() {
 
                     <div className="midFooter">
                         <img 
-                            src={require('../../IMG/Logo.PNG')}
+                            src='./images/Logo.PNG'
                             alt="img"
                         />
                         <h1>Nuline Nutrition</h1>

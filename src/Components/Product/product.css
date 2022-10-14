@@ -1,14 +1,22 @@
 .fcontainer {
   display: flex;
   flex-direction: row;
-  align-items: center;
   background-color: #E8E8E8;
   padding: 2rem auto;
 }
 
 .fcard {
   margin: auto 5%;
+  
 }
+
+/* .fcard1{
+  display: grid;
+  flex-direction: column;
+  width: 120rem;
+  align-items: center;
+  justify-content: center;
+} */
 
 .prd_img {
   width: 10rem;

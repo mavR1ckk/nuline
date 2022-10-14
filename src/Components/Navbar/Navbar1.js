@@ -4,7 +4,6 @@ import {
     Collapse,
     Navbar,
     NavbarToggler,
-    NavbarBrand,
     Nav,
     NavItem,
 } from 'reactstrap';
@@ -16,17 +15,17 @@ const Navbar1 = () => {
     const toggle = () => setIsOpen(!isOpen);
     return (
         <div>
-            <Navbar fixed='top' container="sm" dark color='dark' expand="lg">
-                <NavbarBrand className='brand'>
+            <Navbar fixed='top' container="sm" dark color='dark' expand="lg" style={{justifyContent:"center", alignItems:"center"}}>
+                <div className='brand'>
                     <Link to={"/"}>
                         <img
                             className='brandLogo'
-                            src={require('../../IMG/Logo.PNG')}
+                            src='./images/Logo.PNG'
                             alt="img"
                         />
                     </Link>
                     <p className='brandText' to={"/"}> Nuline nutrition</p>
-                </NavbarBrand>
+                </div>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="me-auto" navbar>
@@ -34,11 +33,11 @@ const Navbar1 = () => {
                             <Link className='link' aria-current='page' to='/'> Home </Link>
                         </NavItem>
                         <NavItem>
-                            <Link className='link' to='/products'>Products</Link>
+                            <Link className='link' to='/products'>All Products</Link>
                         </NavItem>
-                        <NavItem>
+                        {/* <NavItem>
                             <Link className='link' to='/pricing'>Pricing</Link>
-                        </NavItem>
+                        </NavItem> */}
                         <NavItem>
                             <Link className='link' to='/about'>About</Link>
                         </NavItem>

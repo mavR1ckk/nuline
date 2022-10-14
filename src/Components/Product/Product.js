@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Button, Card, CardBody, CardTitle, CardSubtitle, CardText, Row, div, CardImg } from 'reactstrap';
+import { Card } from 'reactstrap';
 import "./product.css"
 function Product({ product }) {
     const img = product.img;
@@ -14,13 +14,13 @@ function Product({ product }) {
                         </p>
                         <img className="prd_img"
                             alt="Card cap"
-                            src={require(`../../IMG/${img}`)}
+                            src={img}
                         />
                     </div>
                     <div className="f_desc" >
-                        <p className="descText" >
-                            {product.description.map((item) => <p>&#8226; {item}</p>)}
-                        </p>
+                        <div className="descText" >
+                            {product.descriptions.map((item,i) => <p key={i}>&#8226; {item}</p> )}
+                        </div>
                     </div>
                     <div className="f_btns text-center">
                         <div className="priceTxt">
@@ -40,7 +40,7 @@ function Product({ product }) {
                             </Button>
                         </Row> */}
                         <div className="fcontainer">
-                            <Link class="btn btn-secondary btn-lg" to={"#"}>
+                            <Link className="btn btn-secondary btn-lg" to={"#"}>
                                 More info
                             </Link>
                         </div>
