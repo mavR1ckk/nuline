@@ -11,6 +11,7 @@ import About from './Components/AboutComp/About';
 import ProductsList from './Components/ALLProducts/ProductsList';
 import Navbar1 from './Components/Navbar/Navbar1';
 import Footer from './Components/Footer/Footer';
+import FeaturePrd from './Components/Home/TrandingProduct/FeaturePrd';
 
 function App() {
   useEffect(() => {
@@ -35,6 +36,7 @@ function App() {
             <Route path='/pricing' element={<Pricing />} />
             <Route path='/about' element={<About />} />
             <Route path='/products' element={<ProductsList />} />
+            <Route path='/test' element={<FeaturePrd />} />
             
           </Routes>
           </div>

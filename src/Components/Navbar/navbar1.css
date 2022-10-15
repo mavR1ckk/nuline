@@ -25,10 +25,11 @@
     align-items: center;
 }
 
-.poster{
+.poster {
     display: inline-flexbox;
 }
-.log_in{
+
+.log_in {
     align-items: right;
     text-align: right;
 }

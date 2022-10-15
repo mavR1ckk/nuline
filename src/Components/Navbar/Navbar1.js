@@ -20,7 +20,7 @@ const Navbar1 = () => {
                     <Link to={"/"}>
                         <img
                             className='brandLogo'
-                            src='./images/Logo.PNG'
+                            src='./images/navlogo.PNG'
                             alt="img"
                         />
                     </Link>
@@ -43,6 +43,9 @@ const Navbar1 = () => {
                         </NavItem>
                         <NavItem>
                             <Link className='link log_in' to='#'>Log In</Link>
+                        </NavItem>
+                        <NavItem>
+                            <Link className='link' to='/test'>test</Link>
                         </NavItem>
                     </Nav>
                 </Collapse>

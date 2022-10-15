@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css";
 import Slider from "./Slider/Slider";
+import FeaturePrd from "./TrandingProduct/FeaturePrd";
 
 function Home() {
     return (
@@ -22,6 +23,7 @@ function Home() {
                     alt="img"
                 /> */}
             </div>
+            <FeaturePrd/>
 
             <div>
                 <h2 className="title"> Who we are?</h2>
