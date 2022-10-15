@@ -10,13 +10,13 @@ const Slider = () => {
          centerMode centerSlidePercentage={60}
          >  
             <div>
-                <img src='./images//home.PNG'/>
+                <img src='./images//home.PNG' alt='...'/>
             </div>
             <div>
-                <img src='./images/home1.jpg'/>
+                <img src='./images/home1.jpg' alt='...'/>
             </div>
             <div>
-                <img src='./images/home2.jpg' />
+                <img src='./images/home2.jpg' alt='...'/>
             </div>
         </Carousel>
     );

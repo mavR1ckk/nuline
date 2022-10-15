@@ -1,5 +1,4 @@
 import React from "react";
-import { Row, Container } from "reactstrap";
 import "./Footer.css";
 
 
